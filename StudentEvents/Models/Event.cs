@@ -17,8 +17,6 @@ namespace StudentEvents.Models
 
         public DateOnly Date { get; set; }
 
-        public Student Tasks { get; set; }
-
         public double Budget { get; set; }
     }
 }

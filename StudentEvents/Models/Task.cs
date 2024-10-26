@@ -11,6 +11,8 @@ namespace StudentEvents.Models
 
         public string Description { get; set; }
 
+        public Event Event { get; set; }
+
         public List<Student> Students { get; set; }
 
         public DateOnly DueDate { get; set; }

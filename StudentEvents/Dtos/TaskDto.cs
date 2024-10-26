@@ -11,5 +11,7 @@ namespace StudentEvents.Dtos
         public DateOnly DueDate { get; set; }
 
         public double Price { get; set; }
+
+        public Event Event { get; set; }
     }
 }

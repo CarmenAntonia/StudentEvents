@@ -34,6 +34,7 @@ namespace StudentEvents.Services
             task.Students = newTask.Students;
             task.DueDate = newTask.DueDate;
             task.Price = newTask.Price;
+            task.Event = newTask.Event;
             await _tasksCollection.InsertOneAsync(task);
         }
 
